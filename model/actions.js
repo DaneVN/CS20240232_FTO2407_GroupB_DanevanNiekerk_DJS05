@@ -1,3 +1,7 @@
+/**
+ * @typedef {increase | decrease | reset} Action
+ */
+
 export const increase = () => {
   return {
     type: "ADD",
